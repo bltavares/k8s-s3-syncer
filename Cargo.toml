@@ -1,0 +1,12 @@
+[package]
+name = "s3-syncer"
+version = "0.1.0"
+authors = ["Bruno Tavares <bruno.tavares@nubank.com.br>"]
+edition = "2018"
+
+[dependencies]
+futures = "0.1.25"
+rusoto_core = "0.36.0"
+rusoto_s3 = "0.36.0"
+actix-web = "0.7.18"
+failure = "0.1.5"
